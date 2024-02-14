@@ -11,16 +11,17 @@
     "custom-cards",
     "weather"
   ],
-  "homepage": "https://github.com/r-renato/ha-card-weather-conditions#readme",
+  "homepage": "https://github.com/dsegantx/ha-card-weather-conditions#readme",
   "module": "ha-card-weather-conditions.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/r-renato/ha-card-weather-conditions.git"
+    "url": "git+ssh://git@github.com/dsegantx/ha-card-weather-conditions.git"
   },
   "author": "Renato Rossi",
   "license": "MIT",
   "dependencies": {
     "custom-card-helpers": "^1.0.8",
+    "lit": "^3.1.2",
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
@@ -35,15 +36,15 @@
     "prettier": "^1.16.4",
     "rollup": "^1.2.3",
     "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-execute": "^1.1.1",
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-typescript2": "^0.19.2",
     "rollup-plugin-uglify": "^6.0.2",
-    "rollup-plugin-execute": "^1.1.1",
     "typescript": "^3.3.3333"
   },
   "bugs": {
-    "url": "https://github.com/r-renato/ha-card-weather-conditions/issues"
+    "url": "https://github.com/dsegantx/ha-card-weather-conditions/issues"
   },
   "main": "index.js",
   "scripts": {
