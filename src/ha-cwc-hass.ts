@@ -10,7 +10,8 @@ export const cwcDefaultHassDayIcons: { [key: string]: string } = {
   rainy: "rainy-5",
   snowy: "snowy-6",
   "snowy-rainy": "snow-and-sleet-mix",
-  sunny: "clear-day",
+  sunny1: "clear-day",
+  sunny: "fog",
   windy: "wind",
   "windy-variant": "wind",
 } ;
